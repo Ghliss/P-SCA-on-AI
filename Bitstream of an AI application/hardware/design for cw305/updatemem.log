@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 27 15:59:04 2022
+# Process ID: 2252
+# Current directory: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./CW305-DesignStart.runs/impl_1/CW305_designstart_top.bit -out CW305_DesignStart.bit -force
+# Log file: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart/updatemem.log
+# Journal file: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./CW305-DesignStart.runs/impl_1/CW305_designstart_top.bit -out CW305_DesignStart.bit -force
+Loading bitfile ./CW305-DesignStart.runs/impl_1/CW305_designstart_top.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream CW305_DesignStart.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 544.504 ; gain = 452.848
+INFO: [Common 17-206] Exiting updatemem at Tue Sep 27 15:59:13 2022...

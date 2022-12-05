@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 27 15:58:58 2022
+# Process ID: 14920
+# Current directory: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart
+# Command line: vivado.exe -mode batch -source make_prog_files.tcl -notrace
+# Log file: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart/vivado.log
+# Journal file: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart\vivado.jou
+#-----------------------------------------------------------
+source make_prog_files.tcl -notrace

@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 27 15:58:58 2022
+# Process ID: 14920
+# Current directory: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart
+# Command line: vivado.exe -mode batch -source make_prog_files.tcl -notrace
+# Log file: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart/vivado.log
+# Journal file: D:/Xilinx/CW305-AI - Resnet-Copie/hardware/CW305-DesignStart\vivado.jou
+#-----------------------------------------------------------
+source make_prog_files.tcl -notrace
+  Running updatemem ...
+
+****** updatemem v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vivado/2019.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./CW305-DesignStart.runs/impl_1/CW305_designstart_top.bit -out CW305_DesignStart.bit -force
+Loading bitfile ./CW305-DesignStart.runs/impl_1/CW305_designstart_top.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream CW305_DesignStart.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 544.504 ; gain = 452.848
+INFO: [Common 17-206] Exiting updatemem at Tue Sep 27 15:59:13 2022...
+
+********************************************
+  CW305_DesignStart.bit correctly generated
+********************************************
+
+Command: write_cfgmem -force -format MCS -size 16 -interface SPIx4 -loadbit { up 0 CW305_DesignStart.bit} CW305_DesignStart.mcs
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile CW305_DesignStart.bit
+Writing file ./CW305_DesignStart.mcs
+Writing log file ./CW305_DesignStart.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x003A607B    Sep 27 15:59:13 2022    CW305_DesignStart.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+
+********************************************
+  CW305_DesignStart.mcs correctly generated
+********************************************
+
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 27 15:59:15 2022...
